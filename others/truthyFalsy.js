@@ -10,6 +10,7 @@ const name ='solaiman';
 
 //any variables that is undefined will be falsy . ex:let address;
 // null variables will be falsy too. ex: let address = null;
+//NaN variables are True. ex: let address = NaN;
 let address;
 console.log(address);
 if (address) {
